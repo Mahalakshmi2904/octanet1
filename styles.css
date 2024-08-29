@@ -1,0 +1,49 @@
+/* Set the background image and ensure it does not repeat */
+body {
+    background-image: url('bgimg.jpg'); /* Replace with your actual image path */
+    background-size:1000px; /* Make sure the background covers the whole page */
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the content */
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background for readability */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 500px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+h1 {
+    font-size: 2.5em;
+    color: #b03a2e;
+    margin-bottom: 20px;
+}
+
+/* Paragraph and list styles */
+p, ul {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* List items styles */
+ul {
+    list-style-type: square;
+    margin: 20px 0;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
